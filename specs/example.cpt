@@ -1,0 +1,65 @@
+Created by farukozer on 4.04.2022
+
+This is a concept file with following syntax for each concept.
+# Açılışta root onayı butonunu kontrol et ve gorunur olursa tıkla
+* "2" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/btnSuccess" elementin sayfada gorunur olduğunu kontrol et ve tıkla
+* "2" saniye kadar bekle
+
+# Ana ekranda 'alışverişe başla' butonunu kontrol et ve gorunur olursa tıkla
+* "2" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" elementin sayfada gorunur olduğunu kontrol et ve tıkla
+* "2" saniye kadar bekle
+
+# Kategoriler Sekmesine tıkla
+* "2" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/nav_categories" elementin sayfada gorunur olduğunu kontrol et ve tıkla
+* "2" saniye kadar bekle
+
+# Kadın Seçeneğine tıkla
+* "2" saniye kadar bekle
+* Xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem']/android.widget.TextView[@text='Kadın']" li elementi bul ve tıkla
+* "2" saniye kadar bekle
+
+# Pantolon Seçeneğine tıkla
+* "2" saniye kadar bekle
+* Xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem']/android.widget.TextView[@text='Pantolon']" li elementi bul ve tıkla
+* "2" saniye kadar bekle
+
+# Sayfayı en aşağı kaydır
+* Sayfayı aşağı doğru kaydır
+* "2" saniye kadar bekle
+* Sayfayı aşağı doğru kaydır
+* "2" saniye kadar bekle
+
+# Rastgele seç
+* Rastgele Ürün Seç
+* "2" saniye kadar bekle
+
+# Favorilere ekle
+* "2" saniye kadar bekle
+* Xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/favLine']" li elementi bul ve tıkla
+* "2" saniye kadar bekle
+
+# Login Sayfasına git
+* Id "com.ozdilek.ozdilekteyim:id/etEposta" li elementi bul ve "faruk.ozer@testinium.com" gir
+* "2" saniye kadar bekle
+* Id "com.ozdilek.ozdilekteyim:id/etPassword" li elementi bul ve "testinium1234" gir
+* "2" saniye kadar bekle
+
+# Geri dön
+* "com.ozdilek.ozdilekteyim:id/ivBack" elementin sayfada gorunur olduğunu kontrol et ve tıkla
+* "2" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/ivBack" elementin sayfada gorunur olduğunu kontrol et ve tıkla
+* "2" saniye kadar bekle
+
+# Sepete Ekle
+* "com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" elementin sayfada gorunur olduğunu kontrol et ve tıkla
+* "2" saniye kadar bekle
+
+
+
+
+
+
+
